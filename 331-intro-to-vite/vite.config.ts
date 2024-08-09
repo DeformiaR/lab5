@@ -14,9 +14,9 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
-  build: {
-    rollupOptions: {
-      external: ['nprogress/nprogress.css'], // Treat nProgress CSS as an external dependency
-    },
-  },
+  // build: {
+  //   rollupOptions: {
+  //     external: ['nprogress/nprogress.css'], // Treat nProgress CSS as an external dependency
+  //   },
+  // },
 });
